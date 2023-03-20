@@ -1,0 +1,13 @@
+.footer__socials {
+    display: grid;
+    
+    bottom: 3rem;
+    font-size: 3rem !important;
+    gap: 5rem;
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+ }
