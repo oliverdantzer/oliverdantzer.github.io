@@ -29,7 +29,7 @@ h5 {
 
 /* ============ HeaderSocials ============ */
 .header__socials {
-    font-size: 2rem;
+    font-size: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,8 +42,8 @@ h5 {
 /* thin line under socials */
 .header__socials::after {
     content: "";
-    width: 2px;
-    height: 4rem;
+    width: 3px;
+    height: 8rem;
     background: var(--color-secondary);
 }
 
@@ -63,10 +63,6 @@ h5 {
 @media screen and (max-width: 700px) {
     .header__socials, .scroll__down {
         display: none;
-    }
-    .btn {
-        font-size: 1rem !important;
-        font-family: 'Sono', sans-serif !important;
     }
     header {
         padding-top: 2rem;

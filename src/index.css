@@ -61,10 +61,11 @@ body {
 h1, h2, h3, h4, h5 {
     font-weight: 700;
     text-shadow: 1px 1px 2px var(--color-secondary);
+    font-size: 2vw;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 8vw;
     text-shadow: 2px 2px 4px var(--color-secondary);
 }
 
@@ -103,7 +104,7 @@ a:hover {
 }
 
 .btn {
-    font-size: 2rem;
+    font-size: 4vw;
     width: max-content;
     display: inline-block;
     padding: 0.75rem 1.2rem;
@@ -134,6 +135,19 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+/*
+@media screen and (max-width: 1650px) {
+    h1 {
+        font-size: 7rem;
+    }
+}*/
+
+@media screen and (max-width: 1300px) {
+    h2, h3, h4, h5 {
+        font-size: 2.3vw;
+    }
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ============= */

@@ -1,7 +1,9 @@
 .experience__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
+    max-height: 30vh;
+    font-size: 0.9rem;
 }
 
 .experience__container > div {
@@ -37,13 +39,26 @@
 }
 
 .experience__details-icon {
+    margin-left: 1rem;
     margin-top: 6px;
     color: var(--color-primary);
+    font-size: 2.3vw;
+    size: 10rem;
+    
+}
+
+@media screen and (max-width: 1600px) {
+    .experience__container {
+        font-size: 2.3vh;
+    }
 }
 
 @media screen and (max-width: 1150px) {
     .experience__content {
         grid-template-columns: 1fr;
+    }
+    .experience__container {
+        grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (max-width: 710px) {
