@@ -1,3 +1,8 @@
 # oliverdantzer.github.io
-Source code: master
-Build: gh-pages
+My personal portfolio website
+## Code
+Source code: main branch
+
+React app: gh-pages branch
+
+Guide: https://github.com/gitname/react-gh-pages
