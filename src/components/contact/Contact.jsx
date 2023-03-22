@@ -1,4 +1,4 @@
-import { useRef} from 'react'
+import { useRef } from 'react'
 import './contact.css'
 import {MdOutlineMailOutline} from 'react-icons/md'
 import emailjs from 'emailjs-com'
@@ -30,9 +30,9 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea type="message" rows="7" placeholder='Your Message' required> </textarea>
+          <input type="text" name='user_name' placeholder='Your Full Name' required />
+          <input type="email" name='user_email' placeholder='Your Email' required />
+          <textarea type="message" name='message' rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send</button>
         </form>
       </div>
