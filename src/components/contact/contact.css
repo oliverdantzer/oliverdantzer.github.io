@@ -57,8 +57,54 @@ input, textarea {
     color: var(--color-primary)
 }
 
-input:focus, textarea:focus {
+.form__text:focus {
     background: white;
+}
+.submit {
+    display: flex;
+    align-items: center;
+}
+
+.submit__btn {
+    float: left;
+}
+
+.submit__check{
+    margin-left: 1rem;
+    color: #00000020;
+    font-size: 2rem;
+    display: flex;
+    float: left;
+}
+
+.submit__check--true {
+    margin-left: 1rem;
+    color: var(--color-secondary) !important;
+    font-size: 2rem;
+    display: flex;
+    float: left;
+}
+
+.submit__sent {
+    display: none;
+}
+
+.submit__sent--true {
+    margin-left: 1rem;
+    display: flex;
+    float: left;
+    font-size: 0.8rem !important;
+}
+
+.submit__error {
+    display: none;
+}
+
+.submit__error--true {
+    margin-left: 1rem;
+    display: flex;
+    float: left;
+    font-size: 0.8rem !important;
 }
 
 @media screen and (max-width: 1500px) {

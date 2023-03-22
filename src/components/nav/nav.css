@@ -1,4 +1,5 @@
-nav {
+.navbar {
+    z-index: 1;
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -11,18 +12,16 @@ nav {
     border-radius: 3rem;
     backdrop-filter: invert(20%) blur(1px);
 }
-
-nav a {
-    background: transparent;
+.navbar__option {
+    float: left;
     padding: 0.9rem;
-    border-radius: 50%;
     display: flex;
+    border-radius: 50%;
     font-size: 1.1rem;
 }
 
-nav a:hover {
+.navbar__option:hover {
     background-color: #ffffff60;
-    
 }
 
 .active {

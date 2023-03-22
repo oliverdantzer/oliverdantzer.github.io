@@ -1,0 +1,30 @@
+footer {
+    /*backdrop-filter: invert(20%) blur(1px);*/
+    background: var(--color-secondary);
+    margin-top: 7rem;
+    padding-top: 3rem;
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+}
+li a, footer a {
+    color: var(--color-primary) !important;
+}
+
+.footer__socials {
+    padding-bottom: 5rem;
+    font-size: 2rem;
+}
+
+.footer__socials a + a {
+    margin-left: 1rem;
+}
+
+.footer__socials a:hover {
+    color: #000000a0 !important;
+}
+
+.name {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 2rem;
+}

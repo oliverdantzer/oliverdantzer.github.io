@@ -49,6 +49,7 @@ body {
     color: var(--color-primary);
     line-height: 1.7;
     background-image: url('../src/assets/memphis-mini.webp');
+    font-size: calc(0.4vw + 12px);
 }
 
 
@@ -61,7 +62,6 @@ body {
 h1, h2, h3, h4, h5 {
     font-weight: 700;
     text-shadow: 1px 1px 2px var(--color-secondary);
-    font-size: 2vw;
 }
 
 h1 {
@@ -71,11 +71,10 @@ h1 {
 
 h2 {
     padding-top: 1rem;
-    font-size: 2rem;
 }
 
 section {
-    margin-top: 8rem;
+    padding-top: 12rem;
     height: 100vh;
 }
 
@@ -145,9 +144,7 @@ img {
 }*/
 
 @media screen and (max-width: 1300px) {
-    h2, h3, h4, h5 {
-        font-size: 2.3vw;
-    }
+
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ============= */

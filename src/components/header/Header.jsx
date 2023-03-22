@@ -14,12 +14,12 @@ function Header (props) {
     props.setActiveNav(newActiveNav);
   }
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
-        <h5>Hello, my name is</h5>
+        <h2>Hello, my name is</h2>
         <h1>Oliver Dantzer</h1>
-        <h5 className="secondary-text"><IoIosSchool/> Computer science student at Queen's University</h5>
-        <h5 className="secondary-text"><IoIosCode/> Full-stack developer</h5>
+        <h2 className="secondary-text"><IoIosSchool/> Computer science student at Queen's University</h2>
+        <h2 className="secondary-text"><IoIosCode/> Full-stack developer</h2>
         <CallToAction />
         <HeadersSocials />
         {/*

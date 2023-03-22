@@ -1,6 +1,7 @@
 .experience__container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
     gap: 2rem;
     max-height: 30vh;
     font-size: 0.9rem;
@@ -30,6 +31,7 @@
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: calc(6rem + 2vw);
     row-gap: 2rem;
 }
 
@@ -47,22 +49,21 @@
     
 }
 
-@media screen and (max-width: 1600px) {
-    .experience__container {
-        font-size: 2.3vh;
+@media screen and (max-width: 1650px) {
+    .experience__content {
+        gap: 2rem
     }
 }
-
+@media screen and (max-width: 1410px) {
+    .experience__container > div {
+        padding: 2rem 2rem;
+    }
+}
 @media screen and (max-width: 1150px) {
     .experience__content {
         grid-template-columns: 1fr;
     }
     .experience__container {
         grid-template-columns: 1fr 1fr;
-    }
-}
-@media screen and (max-width: 710px) {
-    .experience__container > div {
-        padding: 2rem 2rem;
     }
 }
