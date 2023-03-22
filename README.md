@@ -1,5 +1,5 @@
-# oliverdantzer.github.io
-My personal portfolio website
+# [oliverdantzer.github.io](oliverdantzer.github.io "My website")
+My portfolio website
 ## Code
 Source code: main branch
 
