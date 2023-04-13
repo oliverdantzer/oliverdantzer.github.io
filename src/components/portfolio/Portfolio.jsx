@@ -3,7 +3,7 @@ import "./portfolio.css";
 import { SiGithub } from "react-icons/si";
 import Brainy from "../../assets/Project_1.png";
 import Card from "../../assets/card.png";
-import Kfold from "../../assets/kfold.png";
+import Music from "../../assets/music.jpg";
 import Decomp from "../../assets/decomp-3.png";
 
 const Portfolio = () => {
@@ -44,11 +44,11 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Kfold} alt="" />
+            <img src={Music} alt="" />
           </div>
-          <h3>Linear regression and k-fold cross-validation</h3>
+          <h3>Music Generation</h3>
           <a
-            href="https://github.com/oliverdantzer/linear-regression-and-k-fold-cross-validation"
+            href="https://github.com/oliverdantzer/music-generation"
             className="btn"
             rel="noreferrer"
             target="_blank"
