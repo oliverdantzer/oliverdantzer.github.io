@@ -4,7 +4,7 @@ import Resume from '../../assets/resume-oliver-dantzer.pdf'
 const CallToAction = () => {
   return (
     <div className="calltoaction">
-        <a href={Resume} rel="noopener noreferrer" target='_blank' className='btn'>Download resume</a>
+        <a href="https://www.oliverdantzer.me/resume-oliver-dantzer.pdf" rel="noopener noreferrer" target='_blank' className='btn'>Resume</a>
         <a href="#contact" className='btn btn-primary'>Contact me</a>
     </div>
   )
